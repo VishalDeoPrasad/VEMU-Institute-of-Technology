@@ -1,0 +1,13 @@
+Python must installed (Python 3.13)
+install Jupyter Notebook for running code
+
+pip install pandas
+pip install numpy
+pip install scikit-learn
+pip install matplotlib
+pip install seaborn
+pip install tensorflow
+pip install nltk
+pip install opencv-python
+pip install streamlit
+pip install google-generativeai
