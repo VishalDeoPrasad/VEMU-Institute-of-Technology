@@ -11,3 +11,8 @@ pip install nltk
 pip install opencv-python
 pip install streamlit
 pip install google-generativeai
+pip install django
+
+#install VS Code Extension
+jupyter notebook
+live server
