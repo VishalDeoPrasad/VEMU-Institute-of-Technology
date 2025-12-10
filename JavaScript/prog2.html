@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <title> web </title>
+        <style>
+            body{
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <h1 id="output1"> </h1>
+        <h1 id="output2"> </h1>
+        <h1 id="output3"> </h1>
+
+        <script>
+            function time(){
+                let now = new Date;
+                let now_time = now.toLocaleTimeString();
+                let now_date = now.toLocaleDateString();
+                let now_day = now.toLocaleDateString('en-US', {weekday: 'long'});
+                document.getElementById('output1').innerText = now_date;
+                document.getElementById('output2').innerText = now_time;
+                document.getElementById('output3').innerText = now_day;
+            }
+            setInterval(time, 1000);
+            time();
+        </script>
+    </body>
+</html>
